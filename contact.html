@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <script>
+        alert("Welcome, please fill out the necessary information");
+        </script>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <hr />
+        <form action="contact.html" method="POST" />
+            <p>
+                    Name:
+                    <input type="text" name="name" required="true" />
+            </p>
+            <p>
+                Phone:
+                <input type="text" name="phone" />
+            </p>
+            <p>
+                Age:
+                <input type="number" name="Age" min="18" max="30" />
+            </p>
+            <p>
+                Ethnicity
+                <select name="Ethnicity">
+                    <option>Hispanic</option>
+                    <option>Caucasion</option>
+                    <option>African</option>
+                    <option>Asian</option>
+                </select>
+            </p>
+            <p>
+                Email:
+                <input type="email" name="email" />
+            </p>
+            <p>
+                <input type="checkbox" name="adult" />
+                Are you 18 years of age?
+            </p>
+            <p>
+                <input type="radio" name="sex" value="M"/> Male
+                <input type="radio" name="sex" value="F"/> Female
+            </p>
+            <p>
+                Please White Your Comments
+                <br />
+                <textarea name="Comments" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Send" />
+            </p>
+        </form>
+    </body>
+</html>
