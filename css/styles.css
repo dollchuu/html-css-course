@@ -67,3 +67,41 @@ img {
     border-width: 2px;
     border-color: purple;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.grid-item {
+    border: 2px solid rgb(20, 216, 190);
+    padding: 20px;
+}
+
+/*  .grid-item:first {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}   */
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item2 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 4;
+}
+
+.item7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item9 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
