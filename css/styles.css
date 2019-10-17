@@ -96,6 +96,21 @@ img {
     grid-area: 2 / 1 / span 1 / span 2;
 }
 
+.nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav ul li {
+    background-color: rgb(62, 230, 207);
+    padding: 10px;
+    color: #ffffff;
+}
+
 .sidebar {
     grid-row-start: 3;
     grid-row-end: 5;
