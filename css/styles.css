@@ -121,6 +121,22 @@ nav ul li {
     grid-area: 5 / 1 / span 1 / span 2;
 }
 
+.footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    background-color: rgb(62, 230, 207);
+    padding: 10px;
+    color: #ffffff;
+    
+}
+
 .ad {
     grid-column-start: 1;
     grid-column-end: 3;
