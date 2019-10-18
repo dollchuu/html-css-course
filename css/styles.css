@@ -81,9 +81,9 @@ img {
     margin: auto;
 }
 
-.grid-item {
-    border: 2px solid rgb(20, 216, 190);
-    padding: 20px;
+.grid-container article {
+    padding: 5px;
+    background-color: rgb(184, 138, 243);
 }
 
 .header {
@@ -94,6 +94,9 @@ img {
 
 .nav {
     grid-area: 2 / 1 / span 1 / span 2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .nav ul {
@@ -126,15 +129,38 @@ nav ul li {
     grid-template-columns: auto auto auto;
     list-style: none;
     margin: 0;
-    padding-left: 0;
-    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .footer ul li {
     background-color: rgb(62, 230, 207);
-    padding: 10px;
     color: #ffffff;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer ul li:first-child {
+    padding-left: 5px;
+}
+
+.footer ul li:nth-child(2) {
+    text-align: center;
+}
+
+.footer ul li:last-child {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.grid-item {
+    background-color: rgb(20, 216, 190);
+    padding: 20px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .ad {
