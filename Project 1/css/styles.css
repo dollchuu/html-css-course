@@ -95,13 +95,13 @@ nav ul li {
 @font-face {
     font-family: "Avenir Next Condensed";
     font-weight: normal;
-    src: url('../fonts/.....') format('WOFF');
+    src: url('../fonts/Avenir\ Next\ Condensed.ttc') format('WOFF');
 }
 
 @font-face {
     font-family: "Avenir Next Condensed";
     font-weight: bold;
-    src: url('../fonts/.....') format('WOFF');
+    src: url('../fonts/Avenir\ Next\ Condensed.ttc') format('WOFF');
 }
 
 body {
