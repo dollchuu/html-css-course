@@ -39,11 +39,27 @@ body {
 section {
     display: grid;
     grid-template-columns: 50% 50%;
+    font-family: "Avenir Next";
+    font-weight: medium;
+    font-size: 18px;
+}
+
+section .fast {
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section .smile {
+    color: #D2AC58;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .left-content {
     text-align: left;
 }
+
 .right-content {
     text-align: right;
 }
@@ -51,11 +67,13 @@ section {
 .video {
     display: grid;
     grid-template-columns: 56px auto;
+    padding-top: 50px;
 }
 
 .play-text{
     margin-left: 23px;
     margin-top: 20px;
+    color: #000000;
 }
 
 button {
